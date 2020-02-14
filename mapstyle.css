@@ -1,0 +1,92 @@
+
+/*css for map tracking */
+      #rectangle{
+          width:400px;
+          height:300px;
+          background:lightgreen;
+          position: absolute;
+      }
+          .gm-ui-hover-effect {
+              display: none !important;
+          }
+          .gm-style .gm-style-iw {
+          font-size: 15px; 
+  
+          }
+          #map {
+              height: 100%;
+          }
+          #map2 {
+            height: 100%;
+        }
+          html, body {
+              height: 100%;
+              margin: 0;
+              padding: 0;
+          }
+
+          #over_map {
+              position: absolute;
+              color: black;
+              border-radius: 5px;
+              top: 8px;
+              padding: 5px;
+              left:1125px;
+          }
+     
+          #home {
+          
+            background-color:#F3F2F2	;
+            border-radius: 10px;
+              margin: 4px;
+              color: black;
+              opacity: 80%;
+              padding: 9px;
+              border: gray;
+              border-style: solid;
+              border-width: 1px;
+          }
+          #back {
+            position: absolute;
+            top: 2px;
+            left: 650px;
+            
+            color: black;
+            font-size:30px; 
+            padding: 9px;
+        }
+        #back:hover{
+
+          color: gray;
+
+
+        }
+          .btn {
+            border: none;
+            background-color: #F3F2F2;
+            font-size: 20px;
+            left: 100px;
+            cursor: pointer;
+          }
+          
+          /* Darker background on mouse-over */
+          .btn:hover {
+            background-color:lightgray;
+          }
+            /*css for map tracking */
+            .autocomplete {
+              position: relative;
+              display: inherit;
+            }
+
+            #home2 {
+              background-color:#F3F2F2;
+              border-radius: 10px;
+              margin: 4px;
+              color: black;
+              opacity: 80%;
+              padding: 9px;
+              border: gray;
+              border-style: solid;
+              border-width: 1px;
+          }

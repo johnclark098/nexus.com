@@ -1,0 +1,434 @@
+* {
+    box-sizing: border-box;
+  }
+ 
+ 
+ 
+/*---------------------------*/ /* Read Users */ /*---------------------------*/
+body{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#imageContents2
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #555555;
+   padding: 10px;
+   height: 300px; 
+  width:100%;   
+
+}
+
+ 
+#productContents
+{
+  border: 2px solid #555555;
+  margin-top: 10px;
+  margin-bottom: 10px;
+   padding: 10px;
+   width:100%; 
+   position: relative;
+
+}
+#shipmentsContents
+{
+ 
+  border: 2px solid #555555;
+  margin-top: 10px;
+  margin-bottom: 20px;
+   padding: 20px;
+   width:100%; 
+   position: relative;
+}
+
+#chartContents
+{
+ 
+  border: 2px solid #555555;
+  margin-top: 10px;
+  margin-bottom: 10px;
+   padding: 10px;
+   width:100%; 
+   position: relative;
+}
+#shockContents
+{
+ 
+  border: 2px solid #555555;
+  margin-top: 10px;
+  margin-bottom: 10px;
+   padding: 10px;
+   width:100%; 
+   position: relative;
+ 
+}
+#imageContents3
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #555555;
+   padding: 10px;
+   height: 300px; 
+  width:100%;   
+}
+#doorContents
+{
+ 
+  border: 2px solid #555555;
+ margin-top: 10px;
+ margin-bottom: 10px;
+  padding: 10px;
+  width:100%; 
+  position: relative;
+}
+#imageContents
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #555555;
+   padding: 10px;
+   height: 300px; 
+  width:100%;   
+}
+
+
+ 
+
+#inventoryHeader
+{
+  font-size: 400px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
+   font-weight: bold;
+}
+#headerTableText
+{
+ font-size: 22px; 
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
+ font-weight: bold; 
+ text-align: left; 
+ color: darkgreen;
+
+}
+  .my-custom-scrollbar {
+  position: relative;
+  height: 200px;
+  overflow: auto;
+  }
+
+  .my-custom-scrollbar2 {
+    position: relative;
+    height: 200px;
+    
+    overflow: auto;
+    }
+
+    #style-4::-webkit-scrollbar-track
+{
+ 
+	background-color: #F5F5F5;
+}
+
+#style-4::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+#style-4::-webkit-scrollbar-thumb
+{
+	background-color: lightgray;
+	border: 5px solid gray;
+}
+ 
+ 
+  #myInput , #myInput2, #myInput3, #myInput4, #myInput5, #myInput6 {
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 40%;
+    font-size: 12px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid black;
+    margin-bottom: 12px;
+  }
+
+  #table1, #table2 {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 2px solid black;
+  }
+ 
+
+   #table1 td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 12px;
+  }
+  
+  #table1 tr {
+    border-bottom: 1px solid black;
+  }
+  #table1 th {
+    position: sticky;
+    text-align: center;
+    border: 1px solid black;
+    padding:10px;   
+    top: 0;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    background-color: #f1f1f1;
+  }
+  #table1 tr.header, #table1 tr:hover {
+    background-color: #f1f1f1;
+    position: sticky;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    top: 0;
+  }
+
+  #table2 {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+   #table2 td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 12px;
+  }
+  
+  #table2 tr {
+    border-bottom: 1px solid black;
+  }
+  #table2 th {
+    position: sticky;
+    text-align: center;
+    border: 1px solid black;
+    padding:10px;   
+    top: 0;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    background-color: #f1f1f1;
+  }
+  #table2 tr.header, #table2 tr:hover {
+    background-color: #f1f1f1;
+    position: sticky;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    top: 0;
+  }
+
+  
+  #table3 {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    position: relative;
+    border: 2px solid black;
+    
+  }
+  
+   #table3 td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 12px;
+  }
+  
+  #table3 tr {
+    border-bottom: 1px solid black;
+  }
+  #table3 th {
+      position: sticky;
+    text-align: center;
+    border: 1px solid black;
+    padding:10px;   
+    top: 0;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    background-color: #f1f1f1;
+
+  }
+  
+  #table3 tr.header, #table3 tr:hover {
+    background-color: #f1f1f1;
+    position: sticky;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    top: 0;
+     
+  }
+
+
+  #table4 {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 2px solid black;
+  }
+  
+   #table4 td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 12px;
+  }
+  
+  #table4 tr {
+    border-bottom: 1px solid black;
+  }
+  #table4 th {
+    position: sticky;
+    text-align: center;
+    border: 1px solid black;
+    padding:10px;   
+    top: 0;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    background-color: #f1f1f1;
+  }
+  #table4 tr.header, #table4 tr:hover {
+    background-color: #f1f1f1;
+    position: sticky;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    top: 0;
+  }
+
+
+  #table5 {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 2px solid black;
+  }
+  
+   #table5 td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 12px;
+  }
+  
+  #table5 tr {
+    border-bottom: 1px solid black;
+  }
+  #table5 th {
+    position: sticky;
+    text-align: center;
+    border: 1px solid black;
+    padding:10px;   
+    top: 0;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    background-color: #f1f1f1;
+  }
+  #table5 tr.header, #table5 tr:hover {
+    background-color: #f1f1f1;
+    position: sticky;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    top: 0;
+  }
+
+
+  #table6 {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+   #table6 td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 12px;
+  }
+  
+  #table6 tr {
+    border-bottom: 1px solid black;
+  }
+  #table6 th {
+    position: sticky;
+    text-align: center;
+    border: 1px solid black;
+    padding:10px;   
+    top: 0;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    background-color: #f1f1f1;
+  }
+  #table6 tr.header, #table6 tr:hover {
+    background-color: #f1f1f1;
+    position: sticky;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    top: 0;
+  }
+
+  .buttonShipment {
+  border-radius: 14px;
+  background-color: darkgreen;
+  border: none;
+  
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttonShipment span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonShipment span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonShipment:hover span {
+  padding-right: 25px;
+}
+
+.buttonShipment:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+ 
+ 
+.buttonShipment2 {
+  border-radius: 10px;
+  background-color: lightgray;
+  border: none;
+  border-color: black;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width:150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-bottom: 8px;
+  
+}
+.buttonShipment2:after {
+  content: '\00bb';
+  position: absolute;
+  background-color: #DAD7D7;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonShipment2:hover  {
+  padding-right: 25px;
+    background-color: #DAD7D7;
+}
+
+.buttonShipment2:hover :after {
+  opacity: 1;
+  right: 0;
+}
